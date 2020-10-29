@@ -25,7 +25,7 @@ Create lambda function from zip file `make generate_lambda region=<region> role=
 Run lambda function with `make invoke_lambda`
 
 To update lambda function recreate "deploy.zip" file with `make generate_file`
-and push update with command `mage update_lambda`
+and push update with command `make update_lambda`
 
 Also avaliable variable: `lambda_name` - name of your lambda function on AWS
 
@@ -34,6 +34,9 @@ Also avaliable variable: `lambda_name` - name of your lambda function on AWS
 Big thanks to explainers
 
 <https://stackoverflow.com/questions/54330779/how-to-correctly-load-a-gem-extension-in-aws-lambda>
+
 <https://www.stevenringo.com/ruby-in-aws-lambda-with-postgresql-nokogiri/>
+
 <https://stackoverflow.com/questions/53854487/cannot-load-file-mysql2-on-aws-lambda>
+
 <https://memotut.com/it-is-said-that-libmysqlclient.so.18-does-not-exist-f1a2b/>
